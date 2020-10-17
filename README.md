@@ -48,12 +48,12 @@ This project emphasizes the use of using Javascript to make dynamic changes to a
   + JavaScript
       
 # License
-    MonkeyBrain Inc. &#169
+    MonkeyBrain Inc. 
 
 # Author
   Sanjay Gonsalves
   
-  Student-UCSD Extension
+  Student-UCSD Extension/
   Web Development Boot Camp
 
 
