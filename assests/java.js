@@ -22,8 +22,7 @@ function input(){
 
         //For LowerCase criteria
         var charlower = confirm("Would you like in all Lowercase letter?", "lower");
-              if (charlower == true ){
-                 
+              if (charlower == true ){        
                   //Generates random strings and display user results
                   document.getElementById("display").innerText = (generate_random_stringlower(usrinput));
                   //console.log for verification values are correct and for coding purposes
@@ -143,7 +142,7 @@ function generate_random_stringlower(usrinput){
 }
 
 
-  //random uppercase
+//Generate random uppercase
 function generate_random_stringupper(usrinput){
     let random_string = '';
     let random_ascii;
