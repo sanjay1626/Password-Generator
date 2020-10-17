@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://images.idgesg.net/images/article/2018/10/cyber-security_lock_padlock_firewall_code_breach_password-100777447-large.jpg);
+
+}
+
+.content{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    padding: 60px;
+    width: 100%;
+    border-radius: 40px;
+    /* Used .gif as a background to  */
+    background-image: url(https://media.tenor.com/images/219fc303e9bfb93f393d52d9cae36134/tenor.gif);
+    color: rgb(219, 190, 152);
+    font-family: 'Righteous', cursive;
+    opacity: 80%;
+    /* https://media.tenor.com/images/219fc303e9bfb93f393d52d9cae36134/tenor.gif */
+    /* https://biztechmagazine.com/sites/biztechmagazine.com/files/styles/cdw_hero/public/articles/201810/BT_Password_Spray_GettyImages-923729070%20%281%29.jpg?itok=eI3KR7F_ */
+}
+
+#display{
+    background-color: rgb(180, 181, 238);
+    padding: 60px;
+    width: 100%;
+    text-overflow: initial;
+    margin-bottom: 10px;
+    padding-bottom: 90px;
+   text-overflow: clip;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 40px;
+    height: 40px;
+    border-style: dotted;
+    background-color: black;
+    /* addded text overflow so display wont lapse once characters is 127 characters */
+    overflow: auto;
+    /* Hides vertical scroll bar */
+    /* Horizontal scrollbar only shows when text overflows */
+    overflow-y: hidden;
+}
+
+.navbar{
+    background-color: rgb(54, 97, 150);
+    opacity: 90%;
+    color: rgb(209, 188, 161);
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: 'Righteous', cursive;
+    
+}
+.navbarfooter{
+    background-color: rgb(54, 97, 150);
+    opacity: 90%;
+    color: rgb(209, 188, 161);
+    font-family: 'Righteous', cursive;
+    margin-top: 50px;
+    text-align: center;
+    
+    
+}
+
+#input{
+   width: 100%;
+   border-radius: 60px;
+   color: rgb(209, 177, 135);
+   font-size: 30px;
+   
+}

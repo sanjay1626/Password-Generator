@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Head element -->
+    <head>
+    <!-- Meta Tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Monkey Password Generator</title>
+
+    <!-- Links -->
+    <!-- Bootstrap/CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assests/style.css">
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- Java/JavaScript/Jquery Links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./assests/java.js"></script>
+
+</head>
+
+<body>
+    <!-- //Create container nav using Bootstap Grid system -->
+
+    <!-- Nav Tag -->
+    <nav class="navbar">
+    <!-- Create navbrand -->
+      <span class="navbar-brand md-0 h1"><strong>Password Generator</strong></span>
+    </nav>
+
+    <!-- //create container to put content -->
+    <div class="container">
+        <!-- create row -->
+        <div class="row text-center">
+            <!-- create column would fit on large or small screen devices & centers content using mx-auto  -->
+            <div class="col-lg-8 col-sm-12 mx-auto ">
+                <!-- Content -->
+                <div class="content">
+                    <h2>Monkey Password Generator</h2>
+                    <br />
+                    <!-- Display Generated password -->
+                    <p id="display" >Password Display</p>
+                    <br />
+                     <!-- WHEN I click the button to generate a password -->
+                    <button type="button" onclick="input()" id="input" class="btn btn-secondary">Generate</button>
+                     <!-- THEN I am presented with a series of prompts for password criteria -->
+                    
+                    <!-- Display user input to determine element contain values -->
+                     <p id="length">Choose one password criteria and a length from 8 to 128 characters</p>
+                     <p id="lower"></p>
+                     <p id="upper"></p>
+                     <p id="number"></p>
+                     <p id="special"></p>
+                     <p id="alphanum"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Footer Tag -->
+
+<footer class="navbarfooter  ">
+    <!-- Create navbrand -->
+    <img src="https://git.pleroma.social/uploads/-/system/user/avatar/806/avatar.png?width=400)" style="height: 40px; border-radius: 10px;margin-top: 5px;
+             margin-bottom: 5px;opacity: 70%;">
+      <span class="navbar-brand md-0 h2" style="font-size: 15px;">Copyright MonkeyBrains Inc. &#174</span>
+      
+
+    </nav>
+
+    </footer>
+    
+
+</html>
