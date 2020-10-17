@@ -36,7 +36,7 @@ function input(){
                   
                 }
 
-
+        //Uppercase Function
         function uppercase(usrinput){
         var charupper = confirm("Would you like in all Uppercase letter?", "upper");
               if (charupper == true){
@@ -52,7 +52,7 @@ function input(){
                   numbers(usrinput);
               } 
             }
-
+        //Number Function
         function numbers(usrinput){  
             //Number input
             var charnumber = confirm("Would you like all in Numbers", "number");
@@ -69,7 +69,7 @@ function input(){
                     charspecial(usrinput);
                   }
                }
-
+        //special characters function
         function charspecial(usrinput){
             //Special Character input     
             var charspecial = confirm("Would you like all in Special Characters?", "special");
@@ -86,7 +86,7 @@ function input(){
                     alphanumsymbol();
          }
       }
-        
+        //Alphnumeric with specialcharacters function
         function alphanumsymbol(){
            //Uppercase,Lowercase,numbers & symbols
            var charalphanum = confirm("Would you like to generate AlphaNumberic with symbols", "alphanum");
@@ -102,7 +102,7 @@ function input(){
                upperlower();
              } 
         }
-    
+      //Upper and lower function
         function upperlower(){
              //function for upper and lower case
               var  charupperlower = confirm("Would you like in Upper & Lowercase", "upperlower");
@@ -116,7 +116,7 @@ function input(){
                    alphanum();
                }
         }
-
+        //Alphanumeric function
         function alphanum(){
             var  charalphanum = confirm("Would you like in AlphaNumeric", "alphanum");
                if (charalphanum == true){
@@ -148,8 +148,6 @@ function generate_random_stringlower(usrinput){
     }
     return random_string
 }
-
-
 //Generate random uppercase
 //String would random based on the ascii number 
 function generate_random_stringupper(usrinput){
@@ -214,7 +212,6 @@ function generate_random_stringalphanum(usrinput){
     return random_string
 }
 //Genrates random numbers based on user length
-
 function generate_random_number(usrinput){
 
     return Math.floor(Math.pow(9, usrinput-1) + Math.random() * 9 * Math.pow(9, usrinput-1));
