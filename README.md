@@ -6,7 +6,8 @@ This project was designed as a homework assignment for UCSD Extension Web Develo
 This application emphasizes the use of Javascript to generate a random, secure password for the user.
 Based on the User who want a randomly generate password that meets certain criteria so that can create a strong password that provides greater security.
 
-User will be prompted to choose a password lenght and at least one password criteria,and will generate a password based in users input
+User will be prompted to choose a password lenght and at least one password criteria,and will generate a password based in users input.
+
 # Getting Started
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link.
    + [GitHub Respository](https://github.com/sanjay1626/Password-Generator.git) 
@@ -38,17 +39,20 @@ This project emphasizes the use of using Javascript to make dynamic changes to a
      - Password containing uppercase,lowercase,numbers & symbols
      - This will need to randomly generate a selection,using math.random and math.floor.
   +The application should validate user input and ensure that at least one character type is selected.
-     ..-if,else if statement
+     - if,else if statement
   + Once all prompts are answered, the user will be presented with a password matching the answered prompts. 
-
+  
+# Languages
+  + HTML
+  + CSS
+  + JavaScript
+      
 # License
     MonkeyBrain Inc. &#169
 
 # Author
   Sanjay Gonsalves
-  
   Student-UCSD Extension
-  
   Web Development Boot Camp
 
 
