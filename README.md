@@ -52,6 +52,7 @@ This project emphasizes the use of using Javascript to make dynamic changes to a
 
 # Author
   Sanjay Gonsalves
+  
   Student-UCSD Extension
   Web Development Boot Camp
 
