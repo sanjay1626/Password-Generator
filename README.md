@@ -27,7 +27,7 @@ This project emphasizes the use of using Javascript to make dynamic changes to a
 # This project has the following features:
 + A generate button
     - This will send the user a series of prompts and confirm
-    -After user input is collected(lenght & password criteria), random password will be generated using JavaScript
+    - After user input is collected(lenght & password criteria), random password will be generated using JavaScript
     ![ScreenshotLength](https://github.com/sanjay1626/Password-Generator/blob/main/assests/images/Screenshot2.jpg)
 + A display Area
     - This will display the generated password based on user choosen passwrod criteria
@@ -35,10 +35,10 @@ This project emphasizes the use of using Javascript to make dynamic changes to a
 
 # Psuedo Code and Project Requirements
   + The user will be prompted to choose from the following password criteria:8 to 128 characters
-  +The user will receive a confirm
+  + The user will receive a confirm
      - Password containing uppercase,lowercase,numbers & symbols
      - This will need to randomly generate a selection,using math.random and math.floor.
-  +The application should validate user input and ensure that at least one character type is selected.
+  + The application should validate user input and ensure that at least one character type is selected.
      - if,else if statement
   + Once all prompts are answered, the user will be presented with a password matching the answered prompts. 
   
@@ -49,7 +49,8 @@ This project emphasizes the use of using Javascript to make dynamic changes to a
       
 # License
     MonkeyBrain Inc. 
-
+    GitLab
+    
 # Author
   Sanjay Gonsalves
   
