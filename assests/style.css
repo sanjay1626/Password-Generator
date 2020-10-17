@@ -55,6 +55,7 @@ body{
     font-family: 'Righteous', cursive;
     margin-top: 50px;
     text-align: center;
+    padding-right: 380px;
     
     
 }
@@ -66,3 +67,20 @@ body{
    font-size: 30px;
    
 }
+
+a{
+    text-align: left;
+    color: honeydew;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+    font-family: 'Righteous', cursive;
+    opacity: 80%;
+    font-size: 15px;
+    padding-right: 5px;
+    color: rgb(209, 188, 161);
+
+}
+
