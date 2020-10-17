@@ -9,8 +9,8 @@ Based on the User who want a randomly generate password that meets certain crite
 User will be prompted to choose a password lenght and at least one password criteria,and will generate a password based in users input
 # Getting Started
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link.
-    ..*[GitHub Respository](https://github.com/sanjay1626/Password-Generator.git)
-    ..*[Deployed GitHub IO](https://sanjay1626.github.io/Password-Generator/.)
+    +[itHub Respository](https://github.com/sanjay1626/Password-Generator.git)
+    +Deployed GitHub IO](https://sanjay1626.github.io/Password-Generator/.)
 
 # Prerequisites
 To install this application, you will need a text editor. I recommend Visual Studio Code.
