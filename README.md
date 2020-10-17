@@ -24,7 +24,7 @@ This project emphasizes the use of using Javascript to make dynamic changes to a
   ![ScreenshotIntro](https://github.com/sanjay1626/Password-Generator/blob/main/assests/images/Screenshot1.jpg)
 
 # This project has the following features:
-..*A generate button
+*A generate button
     ..-This will send the user a series of prompts and confirm
     ..-After user input is collected(lenght & password criteria), random password will be generated using JavaScript
     ![ScreenshotLength](https://github.com/sanjay1626/Password-Generator/blob/main/assests/images/Screenshot2.jpg)
