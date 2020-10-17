@@ -45,6 +45,7 @@ function input(){
                   document.getElementById("display").innerText = (generate_random_stringupper(usrinput));
                   //console.log for verification values are correct and for coding purposes
                   console.log (generate_random_stringupper(usrinput)); 
+                  return charupper;
               }else { 
               
                   //call fundtion number for next validation
@@ -61,6 +62,7 @@ function input(){
                       document.getElementById("display").innerText = (generate_random_number(usrinput));
                       //console.log for verification values are correct and for coding purposes
                       console.log(generate_random_number(usrinput));
+                      return charnumber;
                   }else {
                    
                     //call fundtion number for next validation
@@ -77,6 +79,7 @@ function input(){
                       document.getElementById("display").innerText = (generate_random_stringspecial(usrinput));
                        //console.log for verification values are correct and for coding purposes
                       console.log(generate_random_stringspecial(usrinput));
+                      return charspecial;
                   }else {
                    
                     //call fundtion number for next validation
@@ -92,6 +95,7 @@ function input(){
                  document.getElementById("display").innerText = (generate_random_stringalphanumsymbol(usrinput));
                        //console.log for verification values are correct and for coding purposes
                  console.log(generate_random_stringalphanumsymbol(usrinput));
+                 return charalphanum;
              }else {
              
                 //call fundtion number for next validation
@@ -107,6 +111,7 @@ function input(){
                   document.getElementById("display").innerText = (generate_random_stringupperlower(usrinput));
                   //console.log for verification values are correct and for coding purposes
                   console.log(generate_random_stringupperlower(usrinput));
+                  return charupperlower;
                }else {
                    alphanum();
                }
@@ -119,6 +124,7 @@ function input(){
                   document.getElementById("display").innerText = (generate_random_stringalphanum(usrinput));
                   //console.log for verification values are correct and for coding purposes
                   console.log(generate_random_stringalphanum(usrinput));
+                  return charalphanum;
                }else {
                    window.alert("You Need to choose a password criteria")
                }
@@ -130,7 +136,9 @@ function input(){
 //THEN I choose lowercase, uppercase, numeric, and/or special characters -->
 
 /* create a var to store values */
-//random lowercase
+
+//Generate random lowercase
+//String would random based on the ascii number 
 function generate_random_stringlower(usrinput){
     let random_string = '';
     let random_ascii;
@@ -143,6 +151,7 @@ function generate_random_stringlower(usrinput){
 
 
 //Generate random uppercase
+//String would random based on the ascii number 
 function generate_random_stringupper(usrinput){
     let random_string = '';
     let random_ascii;
@@ -154,7 +163,8 @@ function generate_random_stringupper(usrinput){
     }
     return random_string
 }
-
+//Generate random upper & lower characters
+//Another example declaring the charcters as const
 function generate_random_stringupperlower(usrinput){
       let random_string ='';
       const list ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -164,7 +174,8 @@ function generate_random_stringupperlower(usrinput){
       }
       return random_string
 }
-
+//Generates random special characters
+//Another example declaring the charcters as const
 function generate_random_stringspecial(usrinput){
     let random_string ='';
     const list ="~`!@#$%%^&*(){}][|\"':;>.?/<,+=";
@@ -174,7 +185,8 @@ function generate_random_stringspecial(usrinput){
     }
     return random_string
 }
-
+//Generates radom alpha num with special characters
+//String would random based on the ascii number
 function generate_random_stringalphanumsymbol(usrinput){
     
     let random_string = '';
@@ -190,7 +202,8 @@ function generate_random_stringalphanumsymbol(usrinput){
     return  random_string
 
 }
-
+//Generates random Alphanumeric
+//Another example declaring the charcters as const
 function generate_random_stringalphanum(usrinput){
     let random_string ='';
     const list ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -200,12 +213,12 @@ function generate_random_stringalphanum(usrinput){
     }
     return random_string
 }
+//Genrates random numbers based on user length
 
 function generate_random_number(usrinput){
 
-    return Math.floor(Math.pow(10, usrinput-1) + Math.random() * 9 * Math.pow(10, usrinput-1));
+    return Math.floor(Math.pow(9, usrinput-1) + Math.random() * 9 * Math.pow(9, usrinput-1));
 }
-
 
 
 
